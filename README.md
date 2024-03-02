@@ -22,5 +22,17 @@ Generate a fireball, need servos
 * http://192.168.17.77/B
 Set maximum event brightness  0->255
 
-
 You can set those values also using serial port.
+
+#Fireball generator
+A very simple program used to spawn different fireball settings.
+
+Two different mode, brute force and bust. 
+The first mode is usefull to find the correct event duration and brightness. 
+The second one to try to generate an event.
+
+
+In order to produce correctly linear events, need to use this object with servo.
+
+https://www.thingiverse.com/thing:3170748
+
