@@ -23,6 +23,7 @@ Generate a fireball, need servos
 Set maximum event brightness  0->255
 
 You can set those values also using serial port.
+Note. In order to use Arduino ETH shields with modern switches, if something is not working as intended, try to force 100M Full duplex mode on the desired port.
 
 #Fireball generator
 A very simple program used to spawn different fireball settings.
@@ -35,4 +36,5 @@ The second one to try to generate an event.
 In order to produce correctly linear events, need to use this object with servo.
 
 https://www.thingiverse.com/thing:3170748
+
 

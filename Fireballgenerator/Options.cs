@@ -43,6 +43,6 @@ namespace FireballGenerator
 		public int wait_time { get; set; } = 1000;
 
 		[Option('I', "ip_address", Required = false, HelpText = "Target ip address")]
-		public string ip_address { get; set; } = "192.168.17.77";
+		public string ip_address { get; set; } = "192.168.26.77";
 	}
 }
